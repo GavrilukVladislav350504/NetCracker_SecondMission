@@ -35,5 +35,8 @@ public class createDAO {
             e.printStackTrace();
             writeInTableServlet.message = "DAO.createDAO ---> catch";
         }
+        catch (NumberFormatException e){
+            e.printStackTrace();
+        }
     }
 }

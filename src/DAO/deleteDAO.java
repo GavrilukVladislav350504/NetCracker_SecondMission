@@ -30,7 +30,12 @@ public class deleteDAO {
             statement.close();
             connection.close();
         }
-        catch (SQLException | ClassNotFoundException e){e.printStackTrace();deleteServlet.message = "deleteDAO --> catch";
+        catch (SQLException | ClassNotFoundException e){
+            e.printStackTrace();
+            deleteServlet.message = "deleteDAO --> catch";
             }
+        catch (NumberFormatException e){
+            e.printStackTrace();
+        }
     }
 }

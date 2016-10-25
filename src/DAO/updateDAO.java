@@ -32,5 +32,8 @@ public class updateDAO {
             e.printStackTrace();
             writeInTableServlet.message = "DAO.updateDAO ---> catch";
         }
+        catch (NumberFormatException e){
+            e.printStackTrace();
+        }
     }
 }

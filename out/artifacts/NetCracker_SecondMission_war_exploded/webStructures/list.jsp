@@ -1,11 +1,12 @@
 <%@ page import="java.sql.*" %><%--
   Created by IntelliJ IDEA.
-  User: Р’Р»Р°Рґ
+  User: Влад
   Date: 20.10.2016
   Time: 19:59
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=Cp1251" pageEncoding="Cp1251"%>
+<meta http-equiv="content-type" content="text/html; charset=cp1251">
 <title>VIEW</title>
 <HTML>
 <HEAD>
@@ -58,7 +59,7 @@
 
 <TABLE class="gridtable" align="center">
     <TR>
-        <TH>в„–</TH>
+        <TH>№</TH>
         <TH>id</TH>
         <TH>town_name</TH>
         <TH>url_name</TH>
