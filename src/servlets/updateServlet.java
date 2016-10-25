@@ -67,7 +67,9 @@ import java.sql.DriverManager;
         request.getSession().setAttribute("name", townName);
         request.getSession().setAttribute("url", townURL);
 
-        response.sendRedirect("http://localhost:8080/NetCracker_SecondMission_war_exploded/index.xhtml");
+        writeInTableServlet.setFlagInsertOrUpdate(false);
+
+        response.sendRedirect("http://localhost:8080/NetCracker_SecondMission_war_exploded/webStructures/updateJSP.jsp");
     }
 
 

@@ -30,11 +30,11 @@ public class createServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, SQLException {
 
-
-
         request.getSession().setAttribute("submitName", "");
         request.getSession().setAttribute("name", "");
         request.getSession().setAttribute("url", "");
+
+        writeInTableServlet.setFlagInsertOrUpdate(true);
 
         response.sendRedirect("http://localhost:8080/NetCracker_SecondMission_war_exploded/webStructures/updateJSP.jsp");
     }

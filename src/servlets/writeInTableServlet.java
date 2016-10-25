@@ -1,6 +1,7 @@
 package servlets;
 
 import BL.releaseBLcreate;
+import BL.releaseBLupdate;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,6 +19,16 @@ import java.sql.SQLException;
 public class writeInTableServlet extends HttpServlet {
     public static String message = "start value";
 
+    private static boolean flagInsertOrUpdate;
+
+    public static boolean isFlagInsertOrUpdate() {
+        return flagInsertOrUpdate;
+    }
+
+    public static void setFlagInsertOrUpdate(boolean flagInsertOrUpdate) {
+        writeInTableServlet.flagInsertOrUpdate = flagInsertOrUpdate;
+    }
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
@@ -34,7 +45,11 @@ public class writeInTableServlet extends HttpServlet {
         String inputName = request.getParameter("inputTownName");
         String inputURL = request.getParameter("inputURL");
         response.setContentType("text/html");
-        releaseBLcreate.creating(inputID, inputName, inputURL);
+
+        if (isFlagInsertOrUpdate())
+            releaseBLcreate.creating(inputID, inputName, inputURL);
+        else
+            releaseBLupdate.updating(inputID,inputName,inputURL);
 
         request.getSession().setAttribute("message", message);
         response.sendRedirect("http://localhost:8080/NetCracker_SecondMission_war_exploded/index.xhtml");
