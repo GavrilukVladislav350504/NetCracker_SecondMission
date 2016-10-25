@@ -1,5 +1,7 @@
 package servlets;
 
+import BL.releaseBLdelete;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -16,6 +18,7 @@ import java.sql.*;
 @WebServlet(name = "deleteServlet",urlPatterns = "/servlets/deleteServlet/")
 
 public class deleteServlet extends HttpServlet {
+    public static String message = "start value";
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException
@@ -29,14 +32,13 @@ public class deleteServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, SQLException {
 
+        String numberID = request.getParameter("deleteButton");
+        response.setContentType("text/html");
+        releaseBLdelete.deleting(numberID);
 
-        /**
-         *
-         * BL.releaseBLdelete --> DAO.deleting
-         *
-         * **/
-
+        request.getSession().setAttribute("message", message);
         response.sendRedirect("http://localhost:8080/NetCracker_SecondMission_war_exploded/index.xhtml");
+
     }
 
 

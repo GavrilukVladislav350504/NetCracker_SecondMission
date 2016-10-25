@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-
+<%=session.getAttribute("message")%>
 </body>
 
 

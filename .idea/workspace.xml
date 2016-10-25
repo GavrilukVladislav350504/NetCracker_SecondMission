@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd39f1ad-60f4-4716-997d-73e55ad1eb8b" name="Default" comment="" />
+    <list default="true" id="cd39f1ad-60f4-4716-997d-73e55ad1eb8b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BL/releaseBLcreate.java" afterPath="$PROJECT_DIR$/src/BL/releaseBLcreate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BL/releaseBLdelete.java" afterPath="$PROJECT_DIR$/src/BL/releaseBLdelete.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DAO/createDAO.java" afterPath="$PROJECT_DIR$/src/DAO/createDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DAO/deleteDAO.java" afterPath="$PROJECT_DIR$/src/DAO/deleteDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlets/deleteServlet.java" afterPath="$PROJECT_DIR$/src/servlets/deleteServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/webStructures/debug.jsp" afterPath="$PROJECT_DIR$/web/webStructures/debug.jsp" />
+    </list>
     <ignored path="NetCracker_SecondMission.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,24 +39,6 @@
         <option name="myItemId" value="MySQL - belarus@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="towns" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - belarus@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="table1" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -58,12 +47,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="updateJSP.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/webStructures/updateJSP.jsp">
+      <file leaf-file-name="writeInTableServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlets/writeInTableServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="62" />
+              <folding>
+                <element signature="method#doPost#0;class#writeInTableServlet#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,74 +63,79 @@
         <entry file="file://$PROJECT_DIR$/web/webStructures/debug.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.5">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="writeInTableServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlets/writeInTableServlet.java">
+      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/webStructures/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+            <state vertical-scroll-proportion="31.384615">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <element signature="method#doPost#0;class#writeInTableServlet#0" expanded="false" />
+                <marker date="1477385055789" expanded="true" signature="828:841" placeholder="select * fro... " />
+                <marker date="1477385055789" expanded="true" signature="828:842" placeholder="select * fro... towns" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="releaseBLcreate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BL/releaseBLcreate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deleteServlet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="deleteServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/servlets/deleteServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.6983003">
+              <caret line="39" column="102" selection-start-line="39" selection-start-column="102" selection-end-line="39" selection-end-column="102" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DAO/createDAO.java">
+      <file leaf-file-name="releaseBLdelete.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BL/releaseBLdelete.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1477393234192" expanded="true" signature="1082:1100" placeholder="INSERT INTO towns... " />
-                <marker date="1477393234192" expanded="true" signature="1082:1133" placeholder="INSERT INTO towns... " />
-                <marker date="1477393234192" expanded="true" signature="1082:1163" placeholder="INSERT INTO towns... " />
-                <marker date="1477393234192" expanded="true" signature="1082:1165" placeholder="INSERT INTO towns... " />
-                <marker date="1477393234192" expanded="true" signature="1082:1176" placeholder="INSERT INTO towns... " />
-                <marker date="1477393234192" expanded="true" signature="1082:1179" placeholder="INSERT INTO towns... " />
-                <marker date="1477393234192" expanded="true" signature="1082:1191" placeholder="INSERT INTO towns... " />
-                <marker date="1477393234192" expanded="true" signature="1082:1194" placeholder="INSERT INTO Registration... " />
-                <marker date="1477393234192" expanded="true" signature="1082:1195" placeholder="INSERT INTO towns... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="belarus.towns" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deleteDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAO/deleteDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1477416118063" expanded="true" signature="778:807" placeholder="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="belarus.towns" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/e1960729/092dcdec-dc21-4e03-9d46-78812b7b49ed/belarus.towns">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
             </state>
           </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/092dcdec-dc21-4e03-9d46-78812b7b49ed/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -167,6 +163,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -178,7 +177,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="/HTML Fragment (index.xhtml:408).html" />
         <option value="$PROJECT_DIR$/src/servlets/createServlet.java" />
-        <option value="$PROJECT_DIR$/src/BL/releaseBLdelete.java" />
         <option value="$PROJECT_DIR$/src/BL/releaseBLupdate.java" />
         <option value="$PROJECT_DIR$/src/servlets/writeInTable.java" />
         <option value="$PROJECT_DIR$/src/servlets/updateServlet.java" />
@@ -188,11 +186,13 @@
         <option value="$PROJECT_DIR$/src/BL/releaseBLcreate.java" />
         <option value="$PROJECT_DIR$/web/webStructures/updateJSP.jsp" />
         <option value="$PROJECT_DIR$/web/index.xhtml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/092dcdec-dc21-4e03-9d46-78812b7b49ed/console.sql" />
-        <option value="$PROJECT_DIR$/src/servlets/deleteServlet.java" />
-        <option value="$PROJECT_DIR$/web/webStructures/debug.jsp" />
         <option value="$PROJECT_DIR$/src/servlets/writeInTableServlet.java" />
         <option value="$PROJECT_DIR$/src/DAO/createDAO.java" />
+        <option value="$PROJECT_DIR$/src/BL/releaseBLdelete.java" />
+        <option value="$PROJECT_DIR$/web/webStructures/debug.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/092dcdec-dc21-4e03-9d46-78812b7b49ed/console.sql" />
+        <option value="$PROJECT_DIR$/src/DAO/deleteDAO.java" />
+        <option value="$PROJECT_DIR$/src/servlets/deleteServlet.java" />
       </list>
     </option>
   </component>
@@ -238,9 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -347,18 +344,37 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/mysql-connector-java-5.1.40" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="DB2&#10;MySQL" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="210" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="210" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="210" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="884" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="210" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="209" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="210" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="885" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -892,15 +908,16 @@
       <workItem from="1477086189888" duration="28721000" />
       <workItem from="1477318517585" duration="13164000" />
       <workItem from="1477384430641" duration="8768000" />
+      <workItem from="1477413508483" duration="2644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55754000" />
+    <option name="totallyTimeSpent" value="58398000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1604" height="867" extended-state="0" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="1604" height="867" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -910,10 +927,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970026" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29700273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18134715" sideWeight="0.8992248" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1807152" sideWeight="0.1007752" order="3" side_tool="true" content_ui="tabs" />
@@ -929,6 +945,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -974,7 +991,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -983,11 +1000,92 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/webStructures/updateJSP.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/webStructures/debug.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/writeInTableServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+          <folding>
+            <element signature="method#doPost#0;class#writeInTableServlet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BL/releaseBLcreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/deleteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/createDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1477415059088" expanded="true" signature="1083:1101" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1134" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1164" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1166" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1177" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1180" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1192" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1195" placeholder="INSERT INTO Registration... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1196" placeholder="INSERT INTO towns... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e1960729/092dcdec-dc21-4e03-9d46-78812b7b49ed/belarus.towns">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/createServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,15 +1121,15 @@
           <caret line="29" column="9" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1477393234192" expanded="true" signature="1082:1100" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1133" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1163" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1165" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1176" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1179" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1191" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1194" placeholder="INSERT INTO Registration... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1195" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1101" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1134" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1164" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1166" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1177" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1180" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1192" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1195" placeholder="INSERT INTO Registration... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1196" placeholder="INSERT INTO towns... " />
           </folding>
         </state>
       </provider>
@@ -1051,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,7 +1195,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,7 +1247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,7 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,7 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,15 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/deleteDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15539305">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,26 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BL/releaseBLdelete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/webStructures/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.23077">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <marker date="1477385055789" expanded="true" signature="828:841" placeholder="select * fro... " />
-            <marker date="1477385055789" expanded="true" signature="828:842" placeholder="select * fro... towns" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1218,56 +1282,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5887446">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e1960729/092dcdec-dc21-4e03-9d46-78812b7b49ed/belarus.table1">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BL/releaseBLcreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlets/updateServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5471311">
-          <caret line="67" column="58" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.1987705">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1477335331870" expanded="true" signature="1651:1681" placeholder="select * fro... towns" />
             <marker date="1477335331870" expanded="true" signature="1651:1682" placeholder="select * fro... towns" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1960729/092dcdec-dc21-4e03-9d46-78812b7b49ed/belarus.table1">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/092dcdec-dc21-4e03-9d46-78812b7b49ed/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/webStructures/debug.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/deleteServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,60 +1325,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BL/releaseBLcreate.java">
+    <entry file="file://$PROJECT_DIR$/web/webStructures/updateJSP.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.9264069">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/webStructures/updateJSP.jsp">
+    <entry file="file://$PROJECT_DIR$/web/webStructures/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="31.384615">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1477385055789" expanded="true" signature="828:841" placeholder="select * fro... " />
+            <marker date="1477385055789" expanded="true" signature="828:842" placeholder="select * fro... towns" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlets/writeInTableServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="62" />
           <folding>
             <element signature="method#doPost#0;class#writeInTableServlet#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/webStructures/debug.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DAO/createDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.40778688">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1477393234192" expanded="true" signature="1082:1100" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1133" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1163" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1165" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1176" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1179" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1191" placeholder="INSERT INTO towns... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1194" placeholder="INSERT INTO Registration... " />
-            <marker date="1477393234192" expanded="true" signature="1082:1195" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1101" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1134" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1164" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1166" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1177" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1180" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1192" placeholder="INSERT INTO towns... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1195" placeholder="INSERT INTO Registration... " />
+            <marker date="1477415059088" expanded="true" signature="1083:1196" placeholder="INSERT INTO towns... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BL/releaseBLdelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/e1960729/092dcdec-dc21-4e03-9d46-78812b7b49ed/belarus.towns">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/092dcdec-dc21-4e03-9d46-78812b7b49ed/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/deleteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1477416118063" expanded="true" signature="778:807" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/deleteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6983003">
+          <caret line="39" column="102" selection-start-line="39" selection-start-column="102" selection-end-line="39" selection-end-column="102" />
           <folding />
         </state>
       </provider>

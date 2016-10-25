@@ -26,7 +26,7 @@ public class createDAO {
 
 
 
-    public static void creating(String townID, String townName, String townURL) {
+    public static void createRow(String townID, String townName, String townURL) {
         try
         {
 
