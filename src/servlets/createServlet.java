@@ -6,29 +6,22 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.SQLException;
-
-
-
 
 /**
  * Created by Vlad on 22.10.2016.
  */
-@WebServlet(name = "createServlet",urlPatterns = "/servlets/createServlet/")
+@WebServlet(name = "createServlet", urlPatterns = "/servlets/createServlet/")
 
 public class createServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException
-    {
-        try {
+            throws ServletException, IOException {
+
             processRequest(request, response);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+
     }
 
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, SQLException {
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         request.getSession().setAttribute("submitName", "");
         request.getSession().setAttribute("name", "");

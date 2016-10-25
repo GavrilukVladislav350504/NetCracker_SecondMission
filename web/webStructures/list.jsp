@@ -7,10 +7,6 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <title>VIEW</title>
-
-
-
-
 <HTML>
 <HEAD>
     <TITLE>VIEW TABLE </TITLE>
@@ -34,27 +30,22 @@
         ResultSet resultset = statement.executeQuery("select * from "+inputTableName) ;
 %>
 
-<style type="text/css">
+<style type="text/css" scoped>
     table.gridtable {
         font-family: mo, Monotype Corsiva, sans-serif;
         font-size:20px;
         color:#333333;
-        border-width: 1px;
-        border-color: #666666;
+        border: 1px #666666;
         border-collapse: collapse;
     }
     table.gridtable th {
-        border-width: 1px;
         padding: 8px;
-        border-style: solid;
-        border-color: #666666;
+        border: 1px solid #666666;
         background-color: mediumturquoise;
     }
     table.gridtable td {
-        border-width: 1px;
         padding: 8px;
-        border-style: solid;
-        border-color: #666666;
+        border: 1px solid #666666;
         background-color: paleturquoise;
     }
 </style>
@@ -82,14 +73,12 @@
         <TD> <%= resultset.getString(3) %></TD>
         <TD>
             <form name="form" action="http://localhost:8080/NetCracker_SecondMission_war_exploded/servlets/updateServlet/" method="post">
-                <% String s1; %>
-                <input type="submit" value="<%= s1 = resultset.getString(1) %>" name="changeButton">
+                <input type="submit" value="<%= resultset.getString(1) %>" name="changeButton">
             </form>
         </TD>
         <TD>
             <form name="form" action="http://localhost:8080/NetCracker_SecondMission_war_exploded/servlets/deleteServlet/" method="post">
-                <% String s2 = null ; %>
-                <input type="submit" value="<%= s2 = resultset.getString(1) %>" name="deleteButton">
+                <input type="submit" value="<%= resultset.getString(1) %>" name="deleteButton">
             </form>
         </TD>
     </TR>

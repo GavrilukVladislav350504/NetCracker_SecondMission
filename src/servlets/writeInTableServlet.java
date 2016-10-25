@@ -49,7 +49,7 @@ public class writeInTableServlet extends HttpServlet {
         if (isFlagInsertOrUpdate())
             releaseBLcreate.creating(inputID, inputName, inputURL);
         else
-            releaseBLupdate.updating(inputID,inputName,inputURL);
+            releaseBLupdate.updating(inputID, inputName, inputURL);
 
         request.getSession().setAttribute("message", message);
         response.sendRedirect("http://localhost:8080/NetCracker_SecondMission_war_exploded/index.xhtml");

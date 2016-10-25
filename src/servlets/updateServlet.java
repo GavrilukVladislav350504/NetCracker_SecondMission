@@ -13,13 +13,12 @@ import java.sql.ResultSet;
 import java.sql.DriverManager;
 
 
-
 /**
  * Created by Vlad on 20.10.2016.
  */
-@WebServlet(name = "updateServlet",urlPatterns = "/servlets/updateServlet/")
+@WebServlet(name = "updateServlet", urlPatterns = "/servlets/updateServlet/")
 
-    public class updateServlet extends HttpServlet {
+public class updateServlet extends HttpServlet {
 
     private String url = "jdbc:mysql://localhost:3306/belarus";
     private String username = "root";
@@ -39,20 +38,18 @@ import java.sql.DriverManager;
 
         String submitName = request.getParameter("changeButton");
         response.setContentType("text/html");
-        String townName = null,townURL = null;
+        String townName = null, townURL = null;
 
         /**вынести в метод**/
 
-        try
-        {
+        try {
             Class.forName("com.mysql.jdbc.Driver");
             Connection connection = DriverManager.getConnection(
                     url, username, password);
 
-            Statement statement = connection.createStatement() ;
-            ResultSet resultset = statement.executeQuery("select * from towns WHERE id = " + submitName) ;
-            while (resultset.next())
-            {
+            Statement statement = connection.createStatement();
+            ResultSet resultset = statement.executeQuery("select * from towns WHERE id = " + submitName);
+            while (resultset.next()) {
                 townName = resultset.getString("town_name");
                 townURL = resultset.getString("url_name");
             }
@@ -60,8 +57,9 @@ import java.sql.DriverManager;
             resultset.close();
             statement.close();
             connection.close();
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
         }
-        catch (SQLException | ClassNotFoundException e){e.printStackTrace();}
 
         request.getSession().setAttribute("submitName", submitName);
         request.getSession().setAttribute("name", townName);
