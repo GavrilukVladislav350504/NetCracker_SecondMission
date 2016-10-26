@@ -12,11 +12,12 @@
     <TITLE>VIEW TABLE </TITLE>
 </HEAD>
 
-<BODY background="../background" >
 
-
-<H1 align="center"> Table name is : <%= request.getParameter("inputTableName") %>
-</H1>
+<style>
+    BODY{background-attachment: fixed}
+</style>
+<BODY background="../background">
+<H1 align="center">Table name is : <%= request.getParameter("inputTableName") %></H1>
 
 <% String inputTableName = request.getParameter("inputTableName");%>
 

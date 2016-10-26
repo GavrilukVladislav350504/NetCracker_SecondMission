@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd39f1ad-60f4-4716-997d-73e55ad1eb8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/DB.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BL/releaseBLselect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BL/selectBL.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DAO/selectDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NetCracker_SecondMission_war_exploded/WEB-INF/classes/servlets/createServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/NetCracker_SecondMission_war_exploded/WEB-INF/classes/servlets/createServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NetCracker_SecondMission_war_exploded/WEB-INF/classes/servlets/updateServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/NetCracker_SecondMission_war_exploded/WEB-INF/classes/servlets/updateServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NetCracker_SecondMission/servlets/createServlet.class" afterPath="$PROJECT_DIR$/out/production/NetCracker_SecondMission/servlets/createServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NetCracker_SecondMission/servlets/updateServlet.class" afterPath="$PROJECT_DIR$/out/production/NetCracker_SecondMission/servlets/updateServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NetCracker_SecondMission_war_exploded/index.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/NetCracker_SecondMission_war_exploded/index.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NetCracker_SecondMission_war_exploded/webStructures/list.jsp" afterPath="$PROJECT_DIR$/out/artifacts/NetCracker_SecondMission_war_exploded/webStructures/list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NetCracker_SecondMission_war_exploded/webStructures/updateJSP.jsp" afterPath="$PROJECT_DIR$/out/artifacts/NetCracker_SecondMission_war_exploded/webStructures/updateJSP.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BL/releaseBLcreate.java" afterPath="$PROJECT_DIR$/src/BL/releaseBLcreate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BL/releaseBLdelete.java" afterPath="$PROJECT_DIR$/src/BL/releaseBLdelete.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BL/releaseBLupdate.java" afterPath="$PROJECT_DIR$/src/BL/releaseBLupdate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DAO/createDAO.java" afterPath="$PROJECT_DIR$/src/DAO/createDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DAO/deleteDAO.java" afterPath="$PROJECT_DIR$/src/DAO/deleteDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DAO/updateDAO.java" afterPath="$PROJECT_DIR$/src/DAO/updateDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlets/createServlet.java" afterPath="$PROJECT_DIR$/src/servlets/createServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlets/updateServlet.java" afterPath="$PROJECT_DIR$/src/servlets/updateServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.xhtml" afterPath="$PROJECT_DIR$/web/index.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/webStructures/list.jsp" afterPath="$PROJECT_DIR$/web/webStructures/list.jsp" />
     </list>
     <ignored path="NetCracker_SecondMission.iws" />
@@ -80,6 +60,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="debug.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/webStructures/debug.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.5822511">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="releaseBLselect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BL/releaseBLselect.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,14 +94,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/webStructures/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43073592">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state vertical-scroll-proportion="-4.8076925">
+              <caret line="17" column="8" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="8" />
               <folding>
-                <marker date="1477519127681" expanded="true" signature="825:838" placeholder="select * fro... " />
-                <marker date="1477519127681" expanded="true" signature="825:839" placeholder="select * fro... towns" />
+                <element signature="e#567#915#0#JSP" expanded="false" />
+                <element signature="n#style#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+                <element signature="n#form#0;n#h2#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+                <element signature="n#TABLE#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+                <element signature="e#3807#4030#0#JSP" expanded="false" />
+                <marker date="1477520931979" expanded="true" signature="877:890" placeholder="select * fro... " />
+                <marker date="1477520931979" expanded="true" signature="877:891" placeholder="select * fro... towns" />
               </folding>
             </state>
           </provider>
@@ -184,18 +179,6 @@
                 <marker date="1477518821208" expanded="true" signature="814:933" placeholder="INSERT INTO towns... " />
                 <marker date="1477518821208" expanded="true" signature="814:937" placeholder="INSERT INTO Registration... " />
                 <marker date="1477518821208" expanded="true" signature="814:938" placeholder="INSERT INTO towns... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updateServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlets/updateServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="81" selection-start-line="44" selection-start-column="81" selection-end-line="44" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -998,12 +981,12 @@
       <workItem from="1477086189888" duration="28721000" />
       <workItem from="1477318517585" duration="13164000" />
       <workItem from="1477384430641" duration="8768000" />
-      <workItem from="1477413508483" duration="23983000" />
+      <workItem from="1477413508483" duration="25637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79737000" />
+    <option name="totallyTimeSpent" value="81391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1604" height="867" extended-state="0" />
@@ -1052,7 +1035,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1209,8 +1192,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
           <folding>
-            <marker date="1477519127681" expanded="true" signature="825:838" placeholder="select * fro... " />
-            <marker date="1477519127681" expanded="true" signature="825:839" placeholder="select * fro... towns" />
+            <element signature="e#567#915#0#JSP" expanded="false" />
+            <element signature="n#style#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#h2#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+            <element signature="n#TABLE#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+            <element signature="e#3807#4030#0#JSP" expanded="false" />
+            <marker date="1477520931979" expanded="true" signature="877:890" placeholder="select * fro... " />
+            <marker date="1477520931979" expanded="true" signature="877:891" placeholder="select * fro... towns" />
           </folding>
         </state>
       </provider>
@@ -1248,8 +1236,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="115" selection-start-line="62" selection-start-column="115" selection-end-line="62" selection-end-column="115" />
           <folding>
-            <marker date="1477519127681" expanded="true" signature="825:838" placeholder="select * fro... " />
-            <marker date="1477519127681" expanded="true" signature="825:839" placeholder="select * fro... towns" />
+            <element signature="e#567#915#0#JSP" expanded="false" />
+            <element signature="n#style#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#h2#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+            <element signature="n#TABLE#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+            <element signature="e#3807#4030#0#JSP" expanded="false" />
+            <marker date="1477520931979" expanded="true" signature="877:890" placeholder="select * fro... " />
+            <marker date="1477520931979" expanded="true" signature="877:891" placeholder="select * fro... towns" />
           </folding>
         </state>
       </provider>
@@ -1293,8 +1286,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
-            <marker date="1477519127681" expanded="true" signature="825:838" placeholder="select * fro... " />
-            <marker date="1477519127681" expanded="true" signature="825:839" placeholder="select * fro... towns" />
+            <element signature="e#567#915#0#JSP" expanded="false" />
+            <element signature="n#style#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#h2#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+            <element signature="n#TABLE#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+            <element signature="e#3807#4030#0#JSP" expanded="false" />
+            <marker date="1477520931979" expanded="true" signature="877:890" placeholder="select * fro... " />
+            <marker date="1477520931979" expanded="true" signature="877:891" placeholder="select * fro... towns" />
           </folding>
         </state>
       </provider>
@@ -1359,14 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/webStructures/debug.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.076923">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1544,12 +1534,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/webStructures/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43073592">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state vertical-scroll-proportion="-4.8076925">
+          <caret line="17" column="8" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="8" />
           <folding>
-            <marker date="1477519127681" expanded="true" signature="825:838" placeholder="select * fro... " />
-            <marker date="1477519127681" expanded="true" signature="825:839" placeholder="select * fro... towns" />
+            <element signature="e#567#915#0#JSP" expanded="false" />
+            <element signature="n#style#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#h2#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+            <element signature="n#TABLE#0;n#BODY#0;n#HTML#0;n#!!top" expanded="false" />
+            <element signature="e#3807#4030#0#JSP" expanded="false" />
+            <marker date="1477520931979" expanded="true" signature="877:890" placeholder="select * fro... " />
+            <marker date="1477520931979" expanded="true" signature="877:891" placeholder="select * fro... towns" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/webStructures/debug.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5822511">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
