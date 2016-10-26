@@ -1,12 +1,11 @@
 <%@ page import="java.sql.*" %><%--
   Created by IntelliJ IDEA.
-  User: Влад
+  User: Р’Р»Р°Рґ
   Date: 20.10.2016
   Time: 19:59
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page language="java" contentType="text/html; charset=Cp1251" pageEncoding="Cp1251"%>
-<meta http-equiv="content-type" content="text/html; charset=cp1251">
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <title>VIEW</title>
 <HTML>
 <HEAD>
@@ -32,24 +31,59 @@
 %>
 
 <style type="text/css" scoped>
-    table.gridtable {
-        font-family: mo, Monotype Corsiva, sans-serif;
-        font-size:20px;
-        color:#333333;
-        border: 1px #666666;
+    .gridtable {
+        background: #f5ffff;
         border-collapse: collapse;
+        text-align: left;
     }
-    table.gridtable th {
-        padding: 8px;
-        border: 1px solid #666666;
-        background-color: mediumturquoise;
+    .gridtable th {
+        border-top: 1px solid #777777;
+        border-bottom: 1px solid #777777;
+        box-shadow: inset 0 1px 0 #999999, inset 0 -1px 0 #999999;
+        background: linear-gradient(#9595b6, #5a567f);
+        color: white;
+        padding: 10px 15px;
+        position: relative;
     }
-    table.gridtable td {
-        padding: 8px;
-        border: 1px solid #666666;
-        background-color: paleturquoise;
+    .gridtable th:after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 25%;
+        height: 25%;
+        width: 100%;
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255,255,255,.08));
+    }
+    .gridtable tr:nth-child(odd) {
+        background: #ebf3f9;
+    }
+    .gridtable th:first-child {
+        border-left: 1px solid #777777;
+        border-bottom:  1px solid #777777;
+        box-shadow: inset 1px 1px 0 #999999, inset 0 -1px 0 #999999;
+    }
+    .gridtable th:last-child {
+        border-right: 1px solid #777777;
+        border-bottom:  1px solid #777777;
+        box-shadow: inset -1px 1px 0 #999999, inset 0 -1px 0 #999999;
+    }
+    .gridtable td {
+        border: 1px solid #e3eef7;
+        padding: 10px 15px;
+        position: relative;
+        transition: all 0.5s ease;
+    }
+    .gridtable tbody:hover td {
+        color: transparent;
+        text-shadow: 0 0 3px #a09f9d;
+    }
+    .gridtable tbody:hover tr:hover td {
+        color: #444444;
+        text-shadow: none;
     }
 </style>
+
 
 <h2 align="center">
     <form action="http://localhost:8080/NetCracker_SecondMission_war_exploded/servlets/createServlet/" method="post">
@@ -59,7 +93,7 @@
 
 <TABLE class="gridtable" align="center">
     <TR>
-        <TH>№</TH>
+        <TH>в„–</TH>
         <TH>id</TH>
         <TH>town_name</TH>
         <TH>url_name</TH>
@@ -74,7 +108,7 @@
         <TD> <%= resultset.getString(3) %></TD>
         <TD>
             <form name="form" action="http://localhost:8080/NetCracker_SecondMission_war_exploded/servlets/updateServlet/" method="post">
-                <input type="submit" value="<%= resultset.getString(1) %>" name="changeButton">
+                <input type="submit" value="<%= resultset.getString(1) %>" name="changeButton" >
             </form>
         </TD>
         <TD>

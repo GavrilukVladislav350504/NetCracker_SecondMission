@@ -1,12 +1,11 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Влад
+  User: Р’Р»Р°Рґ
   Date: 20.10.2016
   Time: 20:50
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page language="java" contentType="text/html; charset=Cp1251" pageEncoding="Cp1251"%>
-<meta http-equiv="content-type" content="text/html; charset=cp1251">
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <title>CREATE/UPDATE</title>
 <HTML>
 <BODY BACKGROUND="../background">
@@ -27,6 +26,9 @@
         <input type="text" align="center" name="inputURL" value="<%=session.getAttribute("url")%>">
         <br>
         <input type="submit" value="SAVE">
+    </form>
+    <form action="http://localhost:8080/NetCracker_SecondMission_war_exploded/webStructures/debug.jsp">
+        <input type="submit" value="qwerfghfbcg">
     </form>
 
 </h1>
