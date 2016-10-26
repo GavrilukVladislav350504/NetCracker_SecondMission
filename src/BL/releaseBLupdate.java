@@ -7,6 +7,7 @@ import DAO.updateDAO;
  */
 public class releaseBLupdate implements updateBL {
     public static void updating(String townID, String townName, String townURL) {
-        updateDAO.updateRow(townID, townName, townURL);
+        updateDAO update = new updateDAO();
+        update.updateRow(townID, townName, townURL);
     }
 }

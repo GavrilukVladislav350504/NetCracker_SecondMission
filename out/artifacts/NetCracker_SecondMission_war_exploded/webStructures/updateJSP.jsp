@@ -27,9 +27,6 @@
         <br>
         <input type="submit" value="SAVE">
     </form>
-    <form action="http://localhost:8080/NetCracker_SecondMission_war_exploded/webStructures/debug.jsp">
-        <input type="submit" value="qwerfghfbcg">
-    </form>
 
 </h1>
 

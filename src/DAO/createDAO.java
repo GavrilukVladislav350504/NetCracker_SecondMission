@@ -18,7 +18,7 @@ public class createDAO {
     private static String password = "root";
 
 
-    public static void createRow(String townID, String townName, String townURL) {
+    public  void createRow(String townID, String townName, String townURL) {
         try {
 
             Class.forName("com.mysql.jdbc.Driver");

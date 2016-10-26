@@ -15,19 +15,21 @@
 <BODY background="../background">
 
 
-<H1 align="center"> Table name is : <%= request.getParameter("inputTableName") %> </H1>
+<H1 align="center"> Table name is : <%= request.getParameter("inputTableName") %>
+</H1>
 
 <% String inputTableName = request.getParameter("inputTableName");%>
 
 <%
-    try{
+    try {
 
         Class.forName("com.mysql.jdbc.Driver");
         Connection connection = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/belarus", "root", "root");
 
-        Statement statement = connection.createStatement() ;
-        ResultSet resultset = statement.executeQuery("select * from "+inputTableName) ;
+        Statement statement = connection.createStatement();
+        ResultSet resultset = statement.executeQuery("select * from " + inputTableName);
+
 %>
 
 <style type="text/css" scoped>
@@ -36,6 +38,7 @@
         border-collapse: collapse;
         text-align: left;
     }
+
     .gridtable th {
         border-top: 1px solid #777777;
         border-bottom: 1px solid #777777;
@@ -45,6 +48,7 @@
         padding: 10px 15px;
         position: relative;
     }
+
     .gridtable th:after {
         content: "";
         display: block;
@@ -53,31 +57,37 @@
         top: 25%;
         height: 25%;
         width: 100%;
-        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255,255,255,.08));
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .08));
     }
+
     .gridtable tr:nth-child(odd) {
         background: #ebf3f9;
     }
+
     .gridtable th:first-child {
         border-left: 1px solid #777777;
-        border-bottom:  1px solid #777777;
+        border-bottom: 1px solid #777777;
         box-shadow: inset 1px 1px 0 #999999, inset 0 -1px 0 #999999;
     }
+
     .gridtable th:last-child {
         border-right: 1px solid #777777;
-        border-bottom:  1px solid #777777;
+        border-bottom: 1px solid #777777;
         box-shadow: inset -1px 1px 0 #999999, inset 0 -1px 0 #999999;
     }
+
     .gridtable td {
         border: 1px solid #e3eef7;
         padding: 10px 15px;
         position: relative;
         transition: all 0.5s ease;
     }
+
     .gridtable tbody:hover td {
         color: transparent;
         text-shadow: 0 0 3px #a09f9d;
     }
+
     .gridtable tbody:hover tr:hover td {
         color: #444444;
         text-shadow: none;
@@ -100,19 +110,27 @@
         <TH>change</TH>
         <TH>delete</TH>
     </TR>
-    <% while(resultset.next()){ %>
+    <% while (resultset.next()) { %>
     <TR>
-        <TD> <%= resultset.getRow() %></TD>
-        <TD> <%= resultset.getString(1) %></TD>
-        <TD> <%= resultset.getString(2) %></TD>
-        <TD> <%= resultset.getString(3) %></TD>
+        <TD><%= resultset.getRow() %>
+        </TD>
+        <TD><%= resultset.getString(1) %>
+        </TD>
+        <TD><%= resultset.getString(2) %>
+        </TD>
+        <TD><%= resultset.getString(3) %>
+        </TD>
         <TD>
-            <form name="form" action="http://localhost:8080/NetCracker_SecondMission_war_exploded/servlets/updateServlet/" method="post">
-                <input type="submit" value="<%= resultset.getString(1) %>" name="changeButton" >
+            <form name="form"
+                  action="http://localhost:8080/NetCracker_SecondMission_war_exploded/servlets/updateServlet/"
+                  method="post">
+                <input type="submit" value="<%= resultset.getString(1) %>" name="changeButton">
             </form>
         </TD>
         <TD>
-            <form name="form" action="http://localhost:8080/NetCracker_SecondMission_war_exploded/servlets/deleteServlet/" method="post">
+            <form name="form"
+                  action="http://localhost:8080/NetCracker_SecondMission_war_exploded/servlets/deleteServlet/"
+                  method="post">
                 <input type="submit" value="<%= resultset.getString(1) %>" name="deleteButton">
             </form>
         </TD>
@@ -120,13 +138,16 @@
     <% } %>
 </TABLE>
 
-<% }
-catch (SQLException e) {
-    e.printStackTrace();
-}
-catch (ClassNotFoundException e) {
-    e.printStackTrace();
-}%>
+<%
+        resultset.close();
+        statement.close();
+        connection.close();
+    } catch (SQLException e) {
+        e.printStackTrace();
+    } catch (ClassNotFoundException e) {
+        e.printStackTrace();
+    }
+%>
 
 
 </BODY>

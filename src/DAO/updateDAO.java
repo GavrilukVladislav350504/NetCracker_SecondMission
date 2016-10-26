@@ -16,7 +16,7 @@ public class updateDAO {
     private static String username = "root";
     private static String password = "root";
 
-    public static void updateRow(String townID, String townName, String townURL) {
+    public void updateRow(String townID, String townName, String townURL) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             Connection connection = DriverManager.getConnection(

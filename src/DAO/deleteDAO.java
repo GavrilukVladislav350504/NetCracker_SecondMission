@@ -16,10 +16,9 @@ public class deleteDAO {
     private static String username = "root";
     private static String password = "root";
 
-    public static void deleteRow(String townID) {
+    public void deleteRow(String townID) {
         try
         {
-
             Class.forName("com.mysql.jdbc.Driver");
             Connection connection = DriverManager.getConnection(
                     url, username, password);

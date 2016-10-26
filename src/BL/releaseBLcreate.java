@@ -9,6 +9,7 @@ import DAO.createDAO;
  */
 public class releaseBLcreate implements createBL {
     public static void creating(String townID, String townName, String townURL) {
-        createDAO.createRow(townID, townName, townURL);
+        createDAO create = new createDAO();
+        create.createRow(townID, townName, townURL);
     }
 }

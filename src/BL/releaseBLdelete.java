@@ -7,6 +7,7 @@ import DAO.deleteDAO;
  */
 public class releaseBLdelete implements deleteBL {
     public static void deleting(String townID) {
-        deleteDAO.deleteRow(townID);
+        deleteDAO delete = new deleteDAO();
+        delete.deleteRow(townID);
     }
 }

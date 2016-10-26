@@ -1,5 +1,7 @@
 package servlets;
 
+import BL.releaseBLselect;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -38,28 +40,9 @@ public class updateServlet extends HttpServlet {
 
         String submitName = request.getParameter("changeButton");
         response.setContentType("text/html");
-        String townName = null, townURL = null;
 
-        /**вынести в метод**/
-
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-            Connection connection = DriverManager.getConnection(
-                    url, username, password);
-
-            Statement statement = connection.createStatement();
-            ResultSet resultset = statement.executeQuery("select * from towns WHERE id = " + submitName);
-            while (resultset.next()) {
-                townName = resultset.getString("town_name");
-                townURL = resultset.getString("url_name");
-            }
-
-            resultset.close();
-            statement.close();
-            connection.close();
-        } catch (SQLException | ClassNotFoundException e) {
-            e.printStackTrace();
-        }
+        String townName = releaseBLselect.selectColumnByID(submitName,"town_name");
+        String townURL = releaseBLselect.selectColumnByID(submitName,"url_name");
 
         request.getSession().setAttribute("submitName", submitName);
         request.getSession().setAttribute("name", townName);
